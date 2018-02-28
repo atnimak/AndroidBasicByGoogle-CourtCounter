@@ -21,17 +21,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void plusThree(View view){
+    public void addThreeForTeamA(View view){
         scoreTeamA+=3;
         displayFromTeamA(scoreTeamA);
     }
 
-    public void plusTwo(View view){
+    public void addTwoForTeamA(View view){
         scoreTeamA+=2;
         displayFromTeamA(scoreTeamA);
     }
 
-    public void freeThrow(View view){
+    public void addOneForTeamA(View view){
         scoreTeamA+=1;
         displayFromTeamA(scoreTeamA);
 
